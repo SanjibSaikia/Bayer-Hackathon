@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="Page-1" id="keqnCqe9MHcxvAsdgfDf">
-    <mxGraphModel dx="6039" dy="3185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5232" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -557,7 +557,7 @@
             <mxRectangle height="30" width="150" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fUHm5dkPTquruKI2e4uz-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Sale fact table" vertex="1">
+        <mxCell id="fUHm5dkPTquruKI2e4uz-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;DataMart table&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="390" width="190" x="1400" y="1898" as="geometry" />
         </mxCell>
         <mxCell id="fUHm5dkPTquruKI2e4uz-2" parent="fUHm5dkPTquruKI2e4uz-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="TRANSACTION_ID" vertex="1">
@@ -638,7 +638,7 @@
         <mxCell id="80fFtE0F-Umj43sR9uaT-126" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Sales Fact Table&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="160" x="1729" y="1268" as="geometry" />
         </mxCell>
-        <mxCell id="fUHm5dkPTquruKI2e4uz-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;KPI&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;SALES GROWTH QOQ (LINE CHART)&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;SALES VS MARGIN OVER PRODUCT AKA SKU (STACKED BAR X AIS PRODUCTS TOP 50)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1. ACTIVE CUSTOMER BASE PER REGION (GEOGRAPHICAL CHART)&lt;br&gt;2. CUSTOMER GROWTH QOQ. (LINE CHART OVER QUARTERS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ORDER VS RETURN&lt;br&gt;1.TOP 5 PRODUCT AND CUSTOMER (BAR CHARTS)&lt;br&gt;2. TOP 5 SAME RETURN FOR SAME ABOVE 5 PRODUCT AND CUSTOMERS. (DRILL DOWN TO GET UNDERLINED CUSTOMER TABLES.)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;DONUT CHART SHOWING % OF DIGITAL PAYMENTS&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+        <mxCell id="fUHm5dkPTquruKI2e4uz-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;KPI&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;SALES GROWTH QOQ (LINE CHART) Considering returned sales.&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;SALES VS MARGIN OVER PRODUCT AKA SKU (STACKED BAR X AIS PRODUCTS TOP 50)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1. ACTIVE CUSTOMER BASE PER REGION (GEOGRAPHICAL CHART)&lt;br&gt;2. CUSTOMER GROWTH QOQ. (LINE CHART OVER QUARTERS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ORDER VS RETURN&lt;br&gt;1.TOP 5 PRODUCT AND CUSTOMER (BAR CHARTS)&lt;br&gt;2. TOP 5 SAME RETURN FOR SAME ABOVE 5 PRODUCT AND CUSTOMERS. (DRILL DOWN TO GET UNDERLINED CUSTOMER TABLES.)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;DONUT CHART SHOWING % OF DIGITAL PAYMENTS&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
           <mxGeometry height="320" width="470" x="2020" y="1885" as="geometry" />
         </mxCell>
         <mxCell id="80fFtE0F-Umj43sR9uaT-128" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Data Movement in Processing Layer&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" vertex="1">
@@ -687,7 +687,7 @@
           <mxGeometry height="70" width="350" x="2050" y="1770" as="geometry" />
         </mxCell>
         <mxCell id="fUHm5dkPTquruKI2e4uz-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="530" width="770" x="1120" y="1790" as="geometry" />
+          <mxGeometry height="530" width="770" x="1150" y="1773" as="geometry" />
         </mxCell>
         <mxCell id="fUHm5dkPTquruKI2e4uz-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CUSTOMER" vertex="1">
           <mxGeometry height="60" width="120" x="1200" y="1920" as="geometry" />
